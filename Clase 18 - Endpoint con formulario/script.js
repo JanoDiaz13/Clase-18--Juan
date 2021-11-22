@@ -12,7 +12,7 @@ import dayjs from "dayjs";    //agregamos la libreria para la fecha
 const cors = require("cors");
 const multer = require("multer");
 const  MethodOverride = require("method-override");
-const {v4 as uuid} = require("uuid");
+const { v4: uuidv4 } = require('uuid');
 const express = require("express");
 const dayjs = require("dayjs");
 
